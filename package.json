@@ -1,0 +1,41 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "glamor": "^2.20.40",
+    "lodash": "^4.17.4",
+    "mime": "^2.0.3",
+    "react": "^16.0.0",
+    "react-ace": "^5.5.0",
+    "react-dom": "^16.0.0",
+    "react-notify-toast": "^0.4.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.0.14",
+    "react-skylight": "^0.5.0",
+    "react-thunk": "^1.0.0",
+    "react-toastify": "^2.2.0",
+    "react-toggle-switch": "^3.0.3",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^4.4.2",
+    "redux-thunk": "^2.2.0",
+    "superagent": "^3.7.0",
+    "zip-folder": "^1.0.0"
+  },
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2"
+  }
+}
